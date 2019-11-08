@@ -1,0 +1,43 @@
+/*
+ * @NOTE: Prepend a `~` to css file paths that are in your node_modules
+ *        See https://github.com/webpack-contrib/sass-loader#imports
+ */
+
+#root {
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+.json-key {
+    color: #950000;
+}
+
+.json-value {
+    color: #0000b9;
+}
+
+.json-boolean {
+    color: #008f8f;
+}
+
+.json-string {
+    color: #292929;
+}
+
+pre {
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.urlTrim {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 260px;
+}
+
+.MuiMenu-list, .MuiMenu-list li {
+    width: 200px;
+}

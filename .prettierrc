@@ -1,0 +1,19 @@
+{
+    "overrides": [
+        {
+            "files": [
+                ".prettierrc",
+                ".babelrc",
+                ".eslintrc",
+                ".stylelintrc"
+            ],
+            "options": {
+                "parser": "json"
+            }
+        }
+    ],
+    "singleQuote": true,
+    "tabWidth": 4,
+    "useTabs": true,
+    "semi": true
+}
