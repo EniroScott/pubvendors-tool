@@ -73,7 +73,8 @@ const App = () => {
             vendors
         };
         try {
-            fs.writeFileSync(dest, JSON.stringify(pubvendors, null, 2), 'utf-8');
+            fs.writeFileSync(dest, JSON.stringify(pubvendors), 'utf-8');
+            alert(`File saved to ${dest}`);
         } catch (e) {
             snackbar.showMessage('Failed to save the file! Do you have permissions to save in that directory?');
         }

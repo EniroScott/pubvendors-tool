@@ -1,6 +1,6 @@
 {
     "name": "pubvendors-tool",
-    "private": true,
+    "private": false,
     "productName": "pubvendors-tool",
     "version": "0.0.1",
     "description": "Small electron application to help create pubvendors.json",
