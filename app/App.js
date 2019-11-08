@@ -66,9 +66,9 @@ const App = () => {
             defaultPath: `${downloads}/pubvendors.json`
         });
         const pubvendors = {
-            publisherVendorsVersion,
-            version,
-            globalVendorListVersion: orig.vendorListVersion,
+            publisherVendorsVersion: parseInt(publisherVendorsVersion, 10),
+            version: parseInt(version, 10),
+            globalVendorListVersion: parseInt(orig.vendorListVersion, 10),
             updatedAt: new Date().toISOString(),
             vendors
         };

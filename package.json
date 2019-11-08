@@ -2,7 +2,7 @@
     "name": "pubvendors-tool",
     "private": false,
     "productName": "pubvendors-tool",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Small electron application to help create pubvendors.json",
     "scripts": {
         "build": "concurrently \"yarn build-main\" \"yarn build-renderer\"",
