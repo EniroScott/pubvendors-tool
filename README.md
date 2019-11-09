@@ -1,4 +1,4 @@
-##pubvendors-tool
+# pubvendors-tool
 
 ![Screenshot](screenshot.png)
 
